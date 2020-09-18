@@ -2,11 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>Техномарт</title>
+    <title>
+    Техномарт
+	</title>
   </head>
-  <body>
-<header>
-	<nav>
+  <body class="page-body">
+<header class="main-header">
+	<nav class="main-navigation">
 		<div>
                 <!-- Здесь будет форма поиска, закладкок, корзины, оформления заказа -->
 </div>
@@ -14,14 +16,14 @@
 			<img src="img.index.svg" width="220" height="47" alt="Логотип Техномарт">
 		</a>
 		<!--Логотип-->
-		<p>
+		<i>
 			Интернет-магазин строительных материалов и инструментов для ремонта
-		</p>
+		</i>
 		<p>
 			Тел:<a href="tel:+78125550555"> +7 (812) 555-05-55
 			</a>
 		</p>
-		<ul>
+		<ul class="site-navigation">
 				<li>
 					<a href="#">
 						Материалы
@@ -33,7 +35,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a href="catalog.html">
 						Каталог
 					</a>#
 				</li>
@@ -60,7 +62,7 @@
 		</ul>
 	 </nav>
 </header>
-<main>
+<main class="container">
 	<h1>
 		Перфораторы
 	</h1>
@@ -117,7 +119,7 @@
 				</a>
 			</li>
 		</ul> 
-		<div>
+		<div class="gallery">
 			<a href="#">
 				
 			</a>
@@ -126,13 +128,13 @@
 				</h3>
 					<img src="img" width="" height="" alt="Перфораторы">
 					<img src="img" width="" height="" alt="Дрели">
-					<button type="button" disabled>
-						Назад
-					</button>
-					<button type="button" disabled>
+					<button class="button gallary-button gallery-button-back" type="button" disabled>
 						Вперед
 					</button>
-					<button type="button">
+					<button class="button gallary-button gallary-button-next " type="button" disabled>
+						Назад
+					</button>
+					<button  class="button open-button" type="button">
 						Открыть каталог
 					</button>
 		</div>
@@ -205,22 +207,27 @@
 							- ЖелДорЭкспедиция
 					</p>
 				</li>
+				<button>
+					<a href="#">Подробнее о компании</a>
+				</button>
 				</ul>
 		 <a href="#">
 		 </a>
 		</section>
-	<section>
+	<section class="contacts">
 		<h2>
 			Контакты
 		</h2>
 		<p>
 			Вы можете забрать товар сами, заехав в наш офис
 		</p>
+		<button class="button">
 			<a href="konstantinlebedev136@gmail.com">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!
-		</a>
+			</a>
+		</button>
 	</section>
 	</main>
-	<footer>
+	<footer class="page-footer main-footer">
 		<section>
 			<h3>
 				Нижнее меню
@@ -253,8 +260,8 @@
 				</li>
 			</ul>
 					<p>
-						г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8 <br>
-						+7 (812) 555-05-55
+						г. Санкт-Петербург, ул. Б. Конюшенная, д 19/8<br>
+						<a class="contacts-phone" href="tel: +78125550555">+7 (812) 555-05-55</a>
 				</p>
 			<ul>
 				<li>
@@ -291,17 +298,17 @@
 			</h2>
 			<ul>
 				<li>
-					<a href="#">
+					<a class="social-button" href="#">
 						Вконтакте
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a class="social-button" href="#">
 						Фейсбук
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a class="social-button" href="#">
 						Инстаграм
 					</a>
 				</li>
@@ -310,24 +317,24 @@
 					<a href="konstantinlebedev136@gmail.com">Обратная связь
 					</a>
 				</p> 
-			<p> <a href="https://htmlacademy.ru/intensive/htmlcss">Разработано - htmlacademy.ru
+			<p> <a class="button "href="https://htmlacademy.ru/intensive/htmlcss">Разработано - htmlacademy.ru
 			</a>
 				</p> 
 		</section>
 	</footer>
-	<section>
+	<section class="modal modal-login">
 		<h2>
 			Личный кабинет
 		</h2>
-		<p> 
+		<p class="modal-description"> 
 			Введите пожалуйста свой логин и пароль
 		</p>
 		<!-- Форма логина -->
-		<button type="button">
+		<button class="modal-close" type="button">
 			Закрыть
 		</button>
 	</section>
-	<section>
+	<section class="modal modal-registration">
 		<h2>
 		Регистрация
 	</h2>
@@ -338,11 +345,11 @@
 			Введите пожалуйста свой пароль
 		</p>
 		<!-- Форма регистрации -->
-		<button type="button">
+		<button class="modal-close" type="button">
 			Закрыть
 		</button>
 	</section>
-	<section>
+	<section class="modal" modal-map>
 	<h2>
 		Как до нас добраться
 	</h2>
