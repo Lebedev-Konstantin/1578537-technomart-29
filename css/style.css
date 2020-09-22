@@ -1,19 +1,19 @@
 /* Fonts */
 @font-face {
-	font-family:'PT Sans Narrow';
+	font-family:'cuprum';
 	font-style:normal;
 	font-weight:400;
-	scr: local ('Pt Sans Narrow'), local ('PTSans-Narrow'),
-	url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff2') format ('woff2'),
-	url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff') format ('woff');
+	src:
+	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff2') format ('woff2'),
+	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff') format ('woff');
 }
 font-face {
-	font-family:'PT Sans Narrow';
+	font-family:;
 	font-style: normal;
 	font-weight:400;
-	src: local ('Pt Sans Narrow Bold'), local ('PTSans-NarrowBold')
-	url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff2') format ('woff2'),
-	url('../fonts/pt-sans-narrow-v12-latin_cyrillic-regular.woff') format ('woff');
+	src: 
+	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff2') format ('woff2'),
+	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff') format ('woff');
 }
 /* Variabilites */
 :root {
@@ -34,19 +34,20 @@ font-face {
 	--error:#BA2732;
 }
 /* Global */
-body {min-width:1200px;
-margin:0;
-padding:0;
-font-family:"PT Sans Narrow", Arial, sans-serif;
-font-size:13px;
-line-weight:24px;
-font-weight:3157px;
-color::var(--basic-black);
-text-transform: uppercase;
-background-color:var (--basic-background);
-background-image:;
-background-position:;
-background-repeat: no repeat;
+body {
+	min-width:1200px;
+	margin:0;
+	padding:0;
+	font-family:"PT Sans Narrow", Arial, sans-serif;
+	font-size:13px;
+	line-weight:24px;
+	font-weight:400; <!--шрифт-->
+	color::var(--basic-black);
+	text-transform: uppercase;
+	background-color:var (--basic-background);
+	background-image:;
+	background-position:;
+	background-repeat: no-repeat;
 }
 
 a {text-decoration:none;
@@ -95,7 +96,6 @@ list-style:none;
   font-size: 30px;
   line-height: 42px;
 }
-
 
 
 
