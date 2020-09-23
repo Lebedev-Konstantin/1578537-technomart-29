@@ -6,6 +6,7 @@
 	src:
 	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff2') format ('woff2'),
 	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff') format ('woff');
+		font-display:swap;
 }
 font-face {
 	font-family:;
@@ -15,7 +16,6 @@ font-face {
 	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff2') format ('woff2'),
 	url('C:\Users\rusal\Documents\GitHub\1578537-technomart-29\fonts\cuprum.woff') format ('woff');
 }
-/* Variabilites */
 :root {
 	--basic-black: #000000;
 	--basic-red: #EE3643;
@@ -33,15 +33,100 @@ font-face {
 	--warning:#FFBF47;
 	--error:#BA2732;
 }
-/* Global */
+.main-navigation{
+font-size:18px ;
+line-height:24px ;
+color:var(--white:#FFFFFF);
+}
+.general-information {
+font-size:18px ;
+line-height:24px ;
+color:var(--basic-red:#EE3643);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Variabilites 
+:root {
+	--basic-black: #000000;
+	--basic-red: #EE3643;
+	--basic-green:#63A63E;
+	--basic-grey:#3D546F;
+	--basic-greylight:#C5C5C5;
+	--basic-background:#F1F5F7;
+	--white:#FFFFFF;
+	--special-yellow:#FFBF47;
+	--special-blue:#3BBCE3;
+	--special-lilac:#DC91D8;
+	--special-greenlight:#8ED78F;
+	--special-yellowlight:#FFD180;
+	--success:#5FBB2D;
+	--warning:#FFBF47;
+	--error:#BA2732;
+}
+/* Global 
 body {
-	min-width:1200px;
+	min-width:960px;
 	margin:0;
 	padding:0;
-	font-family:"PT Sans Narrow", Arial, sans-serif;
+	font-family:"cuprum", Arial, sans-serif;
 	font-size:13px;
 	line-weight:24px;
-	font-weight:400; <!--шрифт-->
+	font-weight:500; <!--шрифт-->
 	color::var(--basic-black);
 	text-transform: uppercase;
 	background-color:var (--basic-background);
@@ -55,7 +140,7 @@ a {text-decoration:none;
 img {max-width:100%;
 height: auto;
 }
-/*Main navigation*/
+/*Main navigation
 .main-navigation{
 	font-size:18px;
 	line-height: 24px;
@@ -82,7 +167,7 @@ list-style:none;
   background-color: var(--white);
 }
 
-/* Features */
+/* Features 
 
 .features-list {
   list-style: none;
@@ -95,7 +180,7 @@ list-style:none;
 .feature-item h3 {
   font-size: 30px;
   line-height: 42px;
-}
+}*/
 
 
 
@@ -119,8 +204,7 @@ list-style:none;
 
 
 
-
-<!--/*положение слайдера/*       Попытка слайдера
+/*положение слайдера/*       Попытка слайдера
 #slider {position;absolute
 text-align: center;
 top:10px;
