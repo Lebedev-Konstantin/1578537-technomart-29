@@ -4,56 +4,56 @@
 	font-style:normal;
 	font-weight:400;
 	src:
-	url('../fonts/cuprum.woff2') format('woff2'),
-	url('../fonts/cuprum.woff') format('woff');
-	font-display:swap;
+	url('../fonts/cuprum.woff2') format ('woff2'),
+	url('../fonts/cuprum.woff') format ('woff');
+		font-display:swap;
 }
 @font-face {
-	font-family:'Сuprum';
+	font-family:;
 	font-style: normal;
 	font-weight:400;
 	src: 
-	url('../fonts/cuprum.woff2') format('woff2'),
-	url('../fonts/cuprum.woff') format('woff');}
-	@font-face {
+	url('../fonts/cuprum.woff2') format ('woff2'),
+	url('../fonts/cuprum.woff) format ('woff');}
+@font-face {
 font-family:'Сuprum';
 font-style: normal;
 font-weight:700;
 src: 
-url('../fonts/cuprumbold.woff2') format('woff2'),
-url('../fonts/cuprumbold.woff') format('woff');
+url('../fonts/cuprumbold.woff2') format ('woff2'),
+url('../fonts/cuprumbold.woff) format ('woff');
 }
-	@font-face {
+@font-face {
 font-family:'Сuprum';
 font-style: italic;
 font-weight:700;
 src: 
-url('../fonts/cuprumbolditalic.woff2') format('woff2'),
-url('../fonts/cuprumbolditalic.woff') format('woff');
+url('../fonts/cuprumbolditalic.woff2') format ('woff2'),
+url('../fonts/cuprumbolditalic.woff) format ('woff');
 }
-	@font-face {
+@font-face {
 font-family:'Сuprum';
 font-style: italic;
 font-weight:400;
 src: 
-url('../fonts/cuprumitalic.woff2') format('woff2'),
-url('../fonts/cuprumitalic.woff') format('woff');
+url('../fonts/cuprumitalic.woff2') format ('woff2'),
+url('../fonts/cuprumitalic.woff) format ('woff');
 }
-	@font-face {
+@font-face {
 font-family:'PT Sans';
 font-style: normal;
 font-weight:400;
 src: 
-url('../fonts/ptsans.woff2') format('woff2'),
-url('../fonts/ptsans.woff') format('woff');
+url('../fonts/ptsans.woff2') format ('woff2'),
+url('../fonts/ptsans.woff) format ('woff');
 }
-	@font-face {
+@font-face {
 font-family:'PT Sans';
 font-style: normal;
 font-weight:700;
 src: 
-url('../fonts/ptsansbold.woff2') format('woff2'),
-url('../fonts/ptsansbold.woff') format('woff');
+url('../fonts/ptsansbold.woff2') format ('woff2'),
+url('../fonts/ptsansbold.woff) format ('woff');
 }
 
 :root {
@@ -66,18 +66,14 @@ url('../fonts/ptsansbold.woff') format('woff');
 	--basic-background:#F1F5F7;
 	--basic-white:#FFFFFF;
 	--special-yellow:#FFBF47;
-	--special-grey:#A9A9A9;
 	--special-blue:#3BBCE3;
 	--special-lilac:#DC91D8;
-	--special-pink:#DC91D8;
 	--special-greenlight:#8ED78F;
 	--special-yellowlight:#FFD180;
-	--special-orange:#FFC047;
 	--success:#5FBB2D;
 	--warning:#FFBF47;
 	--error:#BA2732;
 	--top-darkblue:#293449;
-	--bottom-header:rgba(0, 0, 0, 0.0001);
 }
 /*Global*/
 body{
@@ -98,260 +94,92 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* Шапка */
-.bookmark{
-	color:var(--basic-white);
-}
-.box{
-	color:var(--basic-white);
-}
-.order{
-	color:var(--basic-white);
-}
 .top-header{
-	background-color:var(--top-darkblue)
+	background-color:var(--top-darkblue);
 }
-.bottom-header{
-	background-color:var(--bottom-header);
-}
-.enter{
-	color:var(--basic-black);
-}
-.registration{
-	color:var(--basic-black);
+
+
+.general-information {
+font-size:14px ;
+line-height:24px ;
+color:var(--basic-red:#EE3643);
 }
 
 .contacts-phone {
-	font-size:14px ;
-	line-height:24px ;
-	color:var(--basic-red);
+font-size:14px ;
+line-height:24px ;
+color:var(--basic-red);
 }
-.general-information {
-	font-style:italic;
-	font-size:14px ;
-	line-height:24px ;
-	color:var(--basic-red);
-}
+
 /*Main navigation*/ 
 .main-navigation{
-	font-size:14px;
-	line-height:24px;
-	color:var(--basic-white);
-}
+font-size:14px ;
+line-height:24px ;
+color:var(--white:#FFFFFF);}
 
 .site-navigation{
-font-size:18px;
-line-height:24px;
+font-size:18px ;
+line-height:24px ;
 color:var(--basic-white)
-background-color:var(--basic-darkblue);
 }
-/* Материалы */
-.feature-item-1{
-	background-color:var(--special-yellow);
-}
- .feature-item-2{
-	background-color:var(--special-blue);
-}
-.feature-item-3{
-	background-color:var(--special-pink);
-}
-.feature-item-4{
-	background-color:var(--special-greenlight);
-}
-.feature-item-5{
-	background-color:var(--special-orange);
-}
-.open-catalog{
-	background-color:var(--basic-red);
-}
-.feature-info{
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 30px;
-}
-.feature-link{
-	color:var(--basic-white);
-	text-transform: uppercase;
-	font-size: 14px;
-	line-height: 18px;
-	background-color: rgba(255, 255, 255, 0.3);
-}
-
-
 /* Главная */
 /* Материалы */
+.feature-item feature-info-1{
+font-size:24px;
+line-height:30px;
+color:var(--basic-white)
+}
+.feature-item feature-info-2{
+font-size:14px;
+line-height:18px;
+color:var(--basic-white)
+}
 /* Популярные товары: */
 .popular-items{
-font-size:30px;
-line-height:30px;
-color:var(--basic-darkblue);
-}
-.all-popular-goods{
-	font-size: 14px;
-	line-height: 18px;
-	color: var(basic-white);
-}
-.popular-goods{
-	background-color: var(--basic-red);
-}
-.popular-item{
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 18px;
-	line-height: 20px;
-	color:var(--basic-black);
-}
-del{
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 17px;
-	line-height: 18px;
-	color:var(--special-grey);
-}
-.price{
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 17px;
-	line-height: 18px;
-	color:var(--basic-white);
-}
-.price-tag{
-	background-color:var(--basic-red);
+font-size:14px;
+line-height:18px;
+color:var(--basic-darkblue)
 }
 /* Популярные производители: */
 .popular-manufacturers {
 font-size:30px;
 line-height:30px;
-color:var(--basic-darkblue);
-}
-.all-manufacturers{
-	font-family: Cuprum;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 18px;
-	color:var(--basic-white);
-	background-color:var(--basic-red);
-}
+color:var(--basic-darkblue)}
 .popular-manufacturer {
 border:solid;
 border-width:  220px 145px 1 453px 130px;
 border-color: var(--basic-greylight);
 }
 /* Сервисы и доставка */
-.services-delivery-color{
-	background-color:var(--basic-background);
-}
 .services{
-	font-size:30px;
-	line-height:30px;
-	color:var(--basic-black);
-}
+font-size:30px;
+line-height:30px;
+color:var(--basic-black)}
 .delivery{
-	font-size:30px;
-	line-height:30px;
-	color:var(--basic-darkblue);
-}
-.about-service{
-	background-color:var(--basic-darkblue); 
-}
-.about-delivery{
-	color: var(--basic-white);
-}
-.about-guarantee{
-	color: var(--basic-white);
-}
-.about-credit{
-	color: var(--basic-white);
-}
-/* Информация о компании */
+font-size:30px;
+line-height:30px;
+color:var(--basic-darkblue)}
 .company{
-	font-size:30px;
-	line-height:30px;
-	color:var(--basic-black);
+font-size:30px;
+line-height:30px;
+color:var(--basic-black)}
 }
-.about-company{
-font-family: PT Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 24px;
-color: var(--basic-white);	
-}
-.more-details{
-	font-size: 14px;
-	line-height: 18px;
-	color: var(--basic-white)
-}
-.red{color:var(--basic-white);
-	background-color:var(--basic-red);}
 .contacts{
-	font-size:30px;
-	line-height:30px;
-	color:var(--basic-black);
-}
-.write{
-	font-size: 14px;
-	line-height: 18px;
-	color: var(--basic-white)
-	background-color:var(--basic-red);
-}
-.you-can{
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 24px;
-}
-.footer-navigation{
-	font-size: 18px;
-	line-height: 24px;
-	color: var(--basic-white);
-}
-.footer-navigation-yellow{
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 24px;
-	color: var(--special-yellow);
-}
+font-size:30px;
+line-height:30px;
+color:var(--basic-black)}
 .yellow-info{font-size:14px;
-	line-height:18px;
-	color:var(--special-yellow);
-}
-.main-footer{
-	background-color:var(--basic-darkblue);
-}
-.bottom-footer{
-	background-color:var(--top-darkblue);
-}
+line-height:18px;
+color:var(--special-yellow)}
 
-/* Каталог */
 
-.road{
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 18px;
-}
-.drill{
-	font-size: 30px;
-	line-height: 30px;
-}
-.try-filter{
-	font-family: PT Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 18px;
-}
-.about-drills{
-	background-color:var(--basic-background);
-}
+
+
+
+
+
+
+
 
 
 
