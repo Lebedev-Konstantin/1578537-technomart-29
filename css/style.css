@@ -1,65 +1,57 @@
 /* Fonts */
-/*@font-face {
-	font-family:'Сuprum';
-	font-style:normal;
-	font-weight:400;
-	src:
-	url('../fonts/cuprum.woff2') format('woff2'),
-	url('../fonts/cuprum.woff') format('woff');
-	font-display:swap;
-}*/
 @font-face {
 	font-family:'Сuprum';
 	font-style: normal;
-	font-weight:400;
+	font-weight: 400;
 	src: 
-	url('../fonts/cuprum.woff2') format('woff2'),
-	url('../fonts/cuprum.woff') format('woff');
+	 url('../fonts/cuprum.woff2') format('woff2'),
+	 url('../fonts/cuprum.woff') format('woff');
+   font-display:swap;
 }
 
-	@font-face {
-font-family:'Сuprum-Bold';
-font-style: normal;
-font-weight:700;
-src: 
-url('../fonts/cuprumbold.woff2') format('woff2'),
-url('../fonts/cuprumbold.woff') format('woff');
+@font-face {
+  font-family: 'Сuprum-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+    url('../fonts/cuprumbold.woff2') format('woff2'),
+    url('../fonts/cuprumbold.woff') format('woff');
 }
 
-	@font-face {
-font-family:'Сuprum-BoldItalic';
-font-style: italic;
-font-weight:700;
-src: 
-url('../fonts/cuprumbolditalic.woff2') format('woff2'),
-url('../fonts/cuprumbolditalic.woff') format('woff');
+@font-face {
+  font-family: 'Сuprum-BoldItalic';
+  font-style: italic;
+  font-weight: 700;
+  src: 
+    url('../fonts/cuprumbolditalic.woff2') format('woff2'),
+    url('../fonts/cuprumbolditalic.woff') format('woff');
 }
 
-	@font-face {
-font-family:'Сuprum-Italic';
-font-style: italic;
-font-weight:400;
-src: 
-url('../fonts/cuprumitalic.woff2') format('woff2'),
-url('../fonts/cuprumitalic.woff') format('woff');
+@font-face {
+  font-family: 'Сuprum-Italic';
+  font-style: italic;
+  font-weight: 400;
+  src: 
+    url('../fonts/cuprumitalic.woff2') format('woff2'),
+    url('../fonts/cuprumitalic.woff') format('woff');
 }
 
-	@font-face {
-font-family:'PT Sans';
-font-style: normal;
-font-weight:400;
-src: 
-url('../fonts/ptsans.woff2') format('woff2'),
-url('../fonts/ptsans.woff') format('woff');
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+    url('../fonts/ptsans.woff2') format('woff2'),
+    url('../fonts/ptsans.woff') format('woff');
 }
 
-	@font-face {
-font-family:'PT Sans Bold';
-font-style: normal;
-font-weight:700;
-src: 
-url('../fonts/ptsansbold.woff2') format('woff2'),
-url('../fonts/ptsansbold.woff') format('woff');
+@font-face {
+  font-family:'PT Sans Bold';
+  font-style: normal;
+  font-weight:700;
+  src: 
+    url('../fonts/ptsansbold.woff2') format('woff2'),
+    url('../fonts/ptsansbold.woff') format('woff');
 }
 
 :root {
@@ -87,27 +79,27 @@ url('../fonts/ptsansbold.woff') format('woff');
   --basic-black-transparent: rgba(0, 0, 0, 0.24);
 	--basic-black: #000000;
 	--basic-red: #EE3643;
-	--basic-green:#63A63E;
-	--basic-grey:#3D546F;
+	--basic-green: #63A63E;
+	--basic-grey: #3D546F;
   --basic-darkblue: #32425C;
-	--basic-greylight:#C5C5C5;
-	--basic-background:#F1F5F7;
-  --special-background-yellow:#F9F5F0;
-	--basic-white:#FFFFFF;
-	--special-yellow:#FFBF47;
+	--basic-greylight: #C5C5C5;
+	--basic-background: #F1F5F7;
+  --special-background-yellow: #F9F5F0;
+	--basic-white: #FFFFFF;
+	--special-yellow: #FFBF47;
   --top-darkblue: #293449;
-	--special-grey:#A9A9A9;
+	--special-grey: #A9A9A9;
   --special-background: #F3F7F9;
-	--special-blue:#3BBCE3;
-	--special-pink:#DC91D8;
+	--special-blue: #3BBCE3;
+	--special-pink: #DC91D8;
   --special-grey: rgba(255, 255, 255, 0.5);
-	--special-greenlight:#8ED78F;
+	--special-greenlight: #8ED78F;
   --special-green: #5FBB2D;
-	--special-yellowlight:#FFD180;
-	--special-orange:#FFC047;
-	--top-darkblue:#293449;
-	--social-darkblue:#212A3A;
-	--bottom-header:rgba(0, 0, 0, 0.0001);
+	--special-yellowlight: #FFD180;
+	--special-orange: #FFC047;
+	--top-darkblue: #293449;
+	--social-darkblue: #212A3A;
+	--bottom-header: rgba(0, 0, 0, 0.0001);
   --basic-dark-blue: #161D29;
   --border-grey: #EAEAEA;
   --basic-black-dirt-transparent: rgba(0, 0, 0, 0.15);
@@ -115,8 +107,8 @@ url('../fonts/ptsansbold.woff') format('woff');
 
 /*Global*/
 body {
-	min-width:960px;
-	margin:0;
+	min-width: 960px;
+	margin: 0;
 	padding: 0;
 	font-family: 'Cuprum', 'Arial', sans-serif;
 	color: var(--basic-white);
@@ -133,11 +125,11 @@ img {
 }
 
 li {
-	list-style:none;
+	list-style: none;
 }
 
 .page {	
-	height:100%;
+	height: 100%;
 }
 
 .page-body {
@@ -186,16 +178,27 @@ li {
   display: flex;
   background-color: var(--top-darkblue);
 }
-.main-header-menu ul{
-  height:42px;
-  margin:0px;
+
+.main-header-menu ul {
+  height: 42px;
+  margin: 0px;
   display: flex;
   background-color: var(--top-darkblue);
   padding: 0;
   align-items: center;
+  justify-content: flex-end;
   width: 46.5%;
 }
-.main-logo{
+
+.main-header-menu ul li {
+  display: flex;
+}
+
+.main-header-menu ul li a {
+  display: flex;
+}
+
+.main-logo {
   display: block;
   width: 220px;
   height: 47px;
@@ -229,7 +232,7 @@ li {
 }
 
 .header-search-input {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   font-size: 18px;
   line-height: 24px;
   width: 100%;
@@ -280,7 +283,7 @@ li {
 /* Buttons */
 
 .btn {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   font-size: 18px;
   line-height: 24px;
   text-align: center;
@@ -290,7 +293,7 @@ li {
   cursor: pointer;
 }
 .btn-red {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   text-transform: uppercase;
   width: 170px;
   margin-right: 15px;
@@ -309,11 +312,14 @@ li {
 }
 
 .btn-top-menu {
-  padding: 11px 18px;
+  padding: 0;
   font-size: 18px;
   line-height: 24px;
   text-transform: initial;
   color: var(--basic-white);
+  min-height: 42px;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn-top-menu:active {
@@ -322,23 +328,23 @@ li {
 }
 
 .fonts-for-header {
-  font-family: : 'Cuprum';
-  width:48%;
+  font-family: 'Cuprum';
+  width: 48%;
   justify-content: space-between;
 }
 
 .btn-bookmarks {
   position: relative;
-  min-width: 112px;
-  padding-left: 35px;
-  text-align: left;
+  min-width: 106px;
+  padding: 0 10px 0 40px;
+  justify-content: flex-start;
 }
 
 .btn-bookmarks::before {
   content: "";
   position: absolute;
   top: 13px;
-  left: 12px;
+  left: 16px;
   width: 14px;
   height: 16px;
   background-image: url("../img/icon-bookmark.svg");
@@ -349,16 +355,16 @@ li {
 
 .btn-cart {
   position: relative;
-  min-width: 92px;
-  padding-left: 52px;
-  text-align: left;
+  min-width: 90px;
+  padding: 0 10px 0 40px;
+  justify-content: flex-start;
 }
 
 .btn-cart::before {
   content: "";
   position: absolute;
   top: 13px;
-  left: 12px;
+  left: 16px;
   width: 15px;
   height: 15px;
   background-image: url("../img/icon-cart.svg");
@@ -368,7 +374,7 @@ li {
 }
 
 .btn-order {
-  min-width: 132px;
+  min-width: 150px;
 }
 
 .btn-bookmarks:hover::before,
@@ -521,7 +527,7 @@ li {
 .main-header-contacts {
   width: 270px;
   margin: 0;
-  margin-left:60px;
+  margin-left: 60px;
   margin-right: auto;
   text-align: center;
 }
@@ -568,9 +574,8 @@ li {
   margin-top: 3px;
   font-size: 14px;
   line-height: 24px;
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   color: var(--basic-darkblue);
-
 }
 
 .user-interface {
@@ -602,11 +607,7 @@ li {
   list-style: none;
 }
 
-.user-interface-links li {
-  position: relative;
-}
-
-.user-interface-links li ~ li::before {
+.user-interface-links a ~ a::before {
   content: "";
   position: absolute;
   top: 8px;
@@ -618,13 +619,13 @@ li {
 }
 
 .user-interface-links a {
+  position: relative;
   font-family: 'Cuprum';
   font-size: 14px;
   padding: 0 15px;
   color: var(--basic-darkblue);
   outline: none;
 }
-
 
 .user-interface-links a:hover,
 .user-interface-links a:focus {
@@ -651,6 +652,7 @@ li {
   padding-bottom: 5px;
   list-style: none;
 }
+
 .main-navigation li {
   text-align: center;
 }
@@ -734,16 +736,19 @@ li {
 .breadcrumbs-link[href]:active path {
   fill: var(--basic-red);
 }
+
 /* Шапка */
 .main-header {
   margin-bottom: 43px;
 }
+
 .main-header-logo {
   display: block;
   width: 220px;
   height: 47px;
   background-color: var(--basic-red);
 }
+
 .main-header-logo img {
 	width: 108px;
   height: 18px;
@@ -752,48 +757,50 @@ li {
 }
 
 .bookmark {
-	color:var(--basic-white);
+	color: var(--basic-white);
 }
 
 .box {
-	color:var(--basic-white);
+	color: var(--basic-white);
 }
 
 .order {
-	color:var(--basic-white);
+	color: var(--basic-white);
 }
 
 .top-header {
-	background-color:var(--top-darkblue)
+	background-color: var(--top-darkblue)
 }
 
 .bottom-header {
-	background-color:var(--bottom-header);
+	background-color: var(--bottom-header);
 }
 
 .enter {
-	color:var(--basic-black);
+	color: var(--basic-black);
 }
 
 .registration {
-	color:var(--basic-black);
+	color: var(--basic-black);
 }
 
 .contacts-phone {
   font-family:'Сuprum';
   font-weight: 400;
-	font-size:18px ;
-	line-height:24px ;
-	color:var(--basic-white);
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white);
 }
+
 .general-information {
 	width: 197px;
   margin: 0 30px;
-	font-style:italic;
-	font-size:16px ;
-	line-height:23px ;
-	color:var(--basic-red);
+	font-style: italic;
+	font-size: 16px;
+	line-height: 23px;
+	color: var(--basic-red);
 }
+
 /* User navigation */
 .user-navigation {
 	max-width: 140px;
@@ -816,6 +823,7 @@ li {
 .user-navigation a:focus {
   background-color: var(--basic-extra-dark);
 }
+
 /*Main navigation*/ 
 .main-navigation-wrapper {
 	width: 100%;
@@ -824,19 +832,19 @@ li {
 }
 
 .main-navigation {
-	font-size:14px;
-	line-height:24px;
-	color:var(--basic-white);
+	font-size: 14px;
+	line-height: 24px;
+	color: var(--basic-white);
 	display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .site-navigation {
-	font-size:18px;
-	line-height:24px;
-	color:var(--basic-white)
-	background-color:var(--basic-darkblue);
+	font-size: 18px;
+	line-height: 24px;
+	color: var(--basic-white)
+	background-color: var(--basic-darkblue);
 	outline: 5px solid rgba(0, 255, 255, 0.3);
   outline-offset: -5px;
   list-style: none;
@@ -848,22 +856,24 @@ li {
   outline: 5px solid rgba(0, 255, 255, 0.3);
   outline-offset: -5px;
 }
+
 /* Материалы */
 .container {
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
-  }
+}
 
  .features-list {
   position: relative;
-  display:grid;
-  grid-template-columns:1fr 1fr 1fr;
-  grid-gap:20px;
-  padding:0px;
- }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 0px;
+}
+
 .little-margin {
- padding-bottom: 42px;
+  padding-bottom: 42px;
 }
 
 .badge-product-new {
@@ -874,62 +884,63 @@ li {
   font-size: 24px;
   line-height: 30px;
 }
+
 .feature-item a {
   font-size: 14px;
   line-height: 18px;
   margin: 0 0px;
 }
-.promo-slider {
-  grid-row: 2 / 4;
-  grid-column:  1 / 3;
-}
+
 .feature-item {
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height:123px;
-  background-color:var(--special-yellow);
+  height: 123px;
+  background-color: var(--special-yellow);
   position: relative;
   font-weight: bold;
   font-size: 24px;
   line-height: 30px;
   color: var(--basic-white);
-  padding:21px 31px 21px 22px;
+  padding: 21px 31px 21px 22px;
 }
+
 .feature-item-1 {
-  background-color:var(--special-yellow);
+  background-color: var(--special-yellow);
 }
 
  .feature-item-2 {
-  background-color:var(--special-blue);
+  background-color: var(--special-blue);
 }
 
 .feature-item-3 {
-  background-color:var(--special-pink);
+  background-color: var(--special-pink);
 }
 
 .feature-item-4 {
-  background-color:var(--special-greenlight);
+  background-color: var(--special-greenlight);
 }
 
 .feature-item-5{
-  background-color:var(--special-orange);
+  background-color: var(--special-orange);
 }
 
 .feature-item-6 {
-  grid-column:1/3;
-  grid-row:2/4;
+  grid-column: 1/3;
+  grid-row: 2/4;
 }
+
 .open-catalog {
-  background-color:var(--basic-red);
+  background-color: var(--basic-red);
 }
+
 .feature-info {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  margin:0px;
+  margin: 0px;
 }
 
 .features h3 {
@@ -940,7 +951,7 @@ li {
 }
 
 .btn-features {
-  color:var(--basic-white);
+  color: var(--basic-white);
   text-transform: uppercase;
   font-size: 14px;
   line-height: 18px;
@@ -949,7 +960,7 @@ li {
   width: 115px;
   padding: 10px;
   background-color: var(--basic-white-transparent);
-  margin:0;
+  margin: 0;
 }
 
 .btn-features:hover,
@@ -1048,7 +1059,7 @@ li {
 }
 
 .promo-slider-item h3 {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   position: relative;
   font-weight: bold;
   font-size: 36px;
@@ -1062,7 +1073,7 @@ li {
 }
 
 .promo-slider-item p {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   position: relative;
   font-size: 18px;
   line-height: 24px;
@@ -1073,7 +1084,7 @@ li {
 }
 
 .promo-slider .btn {
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   font-size: 14px;
   display: block;
   margin-left: 24px;
@@ -1171,6 +1182,7 @@ li {
   display: flex;
   justify-content: center;
 }
+
 /* Главная */
 /* Каталог*/
 .catalog h1 {
@@ -1233,7 +1245,7 @@ li {
 .range-controls {
   height: 2px;
   margin-bottom: 10px;
-  padding:39px 20px;
+  padding: 39px 20px;
   background-color: var(--special-biege);
   border-radius: 5px;
 }
@@ -1288,6 +1300,7 @@ li {
   font-size: 17px;
   line-height: 18px;
   text-transform: uppercase;
+  color: var(--basic-black)
 }
 
 .price-controls input {
@@ -1507,13 +1520,13 @@ li {
   margin-bottom: 20px;
   background-color: var(--special-background-yellow);
   text-transform: uppercase;
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
 }
 
 .popular-items-content {
-  font-size:30px;
-  line-height:30px;
-  color:var(--basic-darkblue);
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-darkblue);
 }
 
 .popular-manufacturers-general h2,
@@ -1530,7 +1543,7 @@ li {
 .popular-manufacturers-general a,
 .popular-items-content a {
   font-size: 14px;
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
 }
 
 .popular-goods-list,
@@ -1686,9 +1699,6 @@ li {
   display: none;
 }
 
-
-/* Главная */
-/* Материалы */
 /* Популярные производители: */
 
 .popular-item, 
@@ -1774,9 +1784,9 @@ li {
 
 .popular-manufacturers-general {
   font-family: 'Сuprum';
-  font-size:30px;
-  line-height:30px;
-  color:var(--basic-darkblue);
+  font-size: 30px;
+  line-height: 30px;
+  color: var(--basic-darkblue);
 }
 
 .popular-item {
@@ -1785,29 +1795,29 @@ li {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-  color:var(--basic-black);
+  color: var(--basic-black);
 }
 
-del{
+del {
   font-family: PT Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
-  color:var(--special-grey);
+  color: var(--special-grey);
 }
 
-.price{
+.price {
   font-family: PT Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 17px;
   line-height: 18px;
-  color:var(--basic-white);
+  color: var(--basic-white);
 }
 
-.price-tag{
-  background-color:var(--basic-red);
+.price-tag {
+  background-color: var(--basic-red);
 }
 
 .item-list {
@@ -1821,8 +1831,8 @@ del{
 }
 
 .popular-manufacturer {
-border-width:  220px 145px 1 453px 130px;
-border-color: var(--basic-greylight);
+  border-width: 220px 145px 1 453px 130px;
+  border-color: var(--basic-greylight);
 }
 
 /* Сервисы и доставка */
@@ -1927,15 +1937,13 @@ border-color: var(--basic-greylight);
   font-size: 30px;
   line-height: 30px;
   text-transform: uppercase;
-  margin: 0;
-  margin-bottom: 29px;
+  margin: 0 0 29px;
   color: var(--basic-darkblue);
 }
 
 .services-slider-item p {
   width: 315px;
-  margin: 0;
-  margin-bottom: 30px;
+  margin: 0 0 30px;
 }
 
 .services-slide {
@@ -1960,7 +1968,7 @@ border-color: var(--basic-greylight);
 
 .btn-credit {
   display: block;
-  margin-top:25px;
+  margin-top: 25px;
   background-color: var(--special-crimson);
   border-radius: 3px;
 }
@@ -1977,6 +1985,16 @@ border-color: var(--basic-greylight);
 
 .contacts {
   width: 300px;
+}
+
+.map-link {
+  outline: none;
+}
+
+.map-link:hover img,
+.map-link:focus img {
+  outline: 2px solid var(--basic-red);
+  outline-offset: 2px;
 }
 
 .features-about-company ul {
@@ -2008,7 +2026,7 @@ border-color: var(--basic-greylight);
 
 .features-about-company .btn {
   display: block;
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   font-size: 14px;
   text-transform: uppercase;
   width: 200px;
@@ -2016,7 +2034,7 @@ border-color: var(--basic-greylight);
 }
 .feedback-link {
   font-size: 14px;
-  font-family:'Сuprum';
+  font-family: 'Сuprum';
   text-transform: uppercase;
 }
 
@@ -2041,19 +2059,17 @@ border-color: var(--basic-greylight);
   background-color: var(--basic-background);
 }
 
-
-
-
-
 /*footer */
 .main-footer-top {
   padding-bottom: 58px;
   background-color: var(--basic-darkblue);
 }
+
 .main-footer-top .container {
   display: flex;
   justify-content: space-between;
 }
+
 .footer-logo {
   display: block;
   width: 220px;
@@ -2061,21 +2077,26 @@ border-color: var(--basic-greylight);
   background-color: var(--basic-red);
   box-shadow: inset 0 -5px 0 var(--basic-black-transparent);
 }
+
 .footer-logo:focus {
   outline: 5px solid var(--basic-white);
 }
+
 .footer-logo:focus:hover {
   outline: none;
 }
+
 .footer-logo[href]:active {
   background-color: var(--special-red);
   outline: none;
 }
+
 .footer-logo img {
   width: 138px;
   height: 23px;
   padding: 20px 41px;
 }
+
 .footer-contacts {
   padding-left: 4px;
   width: 325px;
@@ -2083,11 +2104,13 @@ border-color: var(--basic-greylight);
   line-height: 24px;
   color: var(--special-background);
 }
+
 .footer-contacts a {
   color: var(--special-background);
   text-decoration: none;
   outline: none;
 }
+
 .footer-navigation a {
   font-size: 18px;
   line-height: 24px;
@@ -2098,24 +2121,28 @@ border-color: var(--basic-greylight);
 
 .footer-navigation-top {
   display: flex;
-  height:300px;
+  height: 300px;
 }
 
-.footer-navigation:nth-last-child{
-  margin-right:0px;
+.footer-navigation:nth-last-child {
+  margin-right: 0px;
 }
+
 .footer-navigation-bottom a {
   font-size: 18px;
   line-height: 24px;
   color: var(--special-yellowlight);
   outline: none;
 }
+
 .main-footer-top-first {
   margin-bottom:22px;
- }
- .main-footer-top-second {
+}
+
+.main-footer-top-second {
   align-items: center;
- }
+}
+
 .main-footer-top-second .footer-navigation,
 .main-footer-top-first .footer-navigation {
   display:flex;
@@ -2156,10 +2183,10 @@ border-color: var(--basic-greylight);
 
 .main-footer {
   background-position: 0 0;
-  background-repeat:repeat;
-  background-color:var(--basic-darkblue);
-  outline:5px solid rgba(255;0,0,0.7);
-  outline-offset:-5px;
+  background-repeat: repeat;
+  background-color: var(--basic-darkblue);
+  outline: 5px solid rgba(255;0,0,0.7);
+  outline-offset: -5px;
 }
 
 .footer-navigation { 
@@ -2173,10 +2200,10 @@ border-color: var(--basic-greylight);
   color: var(--special-yellow);
 }
 
-.main-footer-top-second p{
-  font-family: "Cuprum";
-  line-height: 22px;
-  margin:0px;
+.main-footer-top-second p {
+  font-size: 18px;
+  font-family: 'Сuprum';
+  margin: 0px;
 }
 
 .main-footer-bottom {
@@ -2186,9 +2213,10 @@ border-color: var(--basic-greylight);
   padding-bottom: 22px;
   background-color: var(--top-darkblue);
 }
+
 .footer-objectives {
- display: flex;
- justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .copyright {
@@ -2202,14 +2230,14 @@ border-color: var(--basic-greylight);
 }
 
 .social-sites { 
- display: flex;
- justify-content: space-between;
- align-items: center;
- width: 134px;
- list-style: none;
- margin: 0 auto;
- padding: 0;
- }
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 134px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+}
 
 .social-button {
   margin-left: 0px;
@@ -2219,12 +2247,12 @@ border-color: var(--basic-greylight);
   cursor: pointer;
   height: 44px;
   width: 44px;
-  background-color:var(--social-darkblue);
+  background-color: var(--social-darkblue);
   border-radius: 50%;
 }
 
 .developer-about {
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
@@ -2240,7 +2268,7 @@ border-color: var(--basic-greylight);
 }
 
 .developer-about p:last-child {
-  margin-left:51px;
+  margin-left: 51px;
 }
 
 .developer-about a {
@@ -2258,9 +2286,10 @@ border-color: var(--basic-greylight);
   color: var(--basic-red);
 }
 
-.yellow-info{font-size:14px;
-	line-height:18px;
-	color:var(--special-yellow);
+.yellow-info {
+  font-size:14px;
+	line-height: 18px;
+	color: var(--special-yellow);
 }
 
 /* Каталог */
@@ -2310,17 +2339,8 @@ border-color: var(--basic-greylight);
 .catalog h1 {
   font-family: 'Сuprum';
 }
+
 /* Modal */
-.map-link {
-  outline: none;
-}
-
-.map-link:hover img,
-.map-link:focus img{
-  outline: 2px solid var(--basic-red);
-  outline-offset: 2px;
-}
-
 .popup-modal {
   position: fixed;
   font-family: 'Сuprum';
@@ -2363,7 +2383,6 @@ border-color: var(--basic-greylight);
   background: #00d9ff; 
 }
 
-
 .popup-feedback > div {
   width: 620px;
   height: 422px;
@@ -2377,7 +2396,7 @@ border-color: var(--basic-greylight);
 }
 
 .popup-feedback-item {
-  width:220px;
+  width: 220px;
   margin-top: 0;
   margin-bottom: 14px;
 }
