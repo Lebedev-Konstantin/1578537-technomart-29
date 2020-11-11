@@ -2443,7 +2443,7 @@ img {
 
 .popup-modal > div {
   border-top: 7px solid var(--basic-red);
-  max-width: 943px;
+  max-width: 973px;;
   height: 449px;
   position: relative;
   margin: 10% auto;
@@ -2452,9 +2452,8 @@ img {
 }
 
 /*Popup*/
-.popup-cart {
+.modal-hide {
   position: fixed;
-  display: none;
   top: 0;
   right: 0;
   bottom: 0;
@@ -2535,11 +2534,8 @@ img {
   background-color: var(--special-greylight);
 }
 
-.popup-feedback-bottom .btn {
-  width: 100%;
-}
-
-.popup-cart > div {
+.popup-cart {
+  display: flex;
   width: 620px;
   height: 276px;
 }
